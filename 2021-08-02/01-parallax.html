@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+body{
+    margin: 0px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%; height: 50px;
+    background-color: rgb(11, 16, 19);
+    line-height: 50px;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    z-index: 1;
+    text-align: center;
+}
+
+a{
+    margin-right: 20px;
+    color:rgb(158, 122, 122);
+
+}
+
+a:hover{
+    color:lawngreen;
+}
+
+.bigtop{
+    width: 100%; 
+    margin: auto;
+    position: relative;
+}
+
+.photo{
+    width: 100%; height: 800px;
+    margin: auto;
+    opacity: 0.6;
+    background-color: rgb(11, 16, 19);
+}
+
+.centerword{
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px );
+    top: 50%;
+    background-color: rgb(11, 16, 19);
+    color: rgb(189, 192, 186);
+    font-size: 50px;
+    text-align: center;
+}
+
+#anchor01{
+    position: absolute;
+    top: -50px;
+}
+#anchor02{
+    position: absolute;
+    top: -50px;
+}
+#anchor03{
+    position: absolute;
+    top: -50px;
+}
+#anchor04{
+    position: absolute;
+    top: -50px;
+}
+
+.top{
+background-image: url(./素材/風景1.jpg);
+background-size: cover;
+background-position:center;
+background-attachment: fixed;
+}
+.midtop{
+background-image: url(./素材/風景2.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.midbottom{
+background-image: url(./素材/風景3.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-attachment: fixed;/*視差卷軸*/
+}
+.bottom{
+background-image: url(./素材/風景4.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-attachment: fixed;
+}
+
+.wordtitle{
+    width: 100%;
+    margin: auto;
+    /*margin-top: 32px;*/
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(158, 122, 122);
+}
+
+.word{
+    width: 100%;
+    /*text-align: center;*/
+    /*background-color:seagreen;*/
+    padding: 20px 100px;
+    /*margin-bottom: 32px;*/
+    box-sizing: border-box;
+    background-color: rgb(158, 122, 122);
+
+}
+
+.linemid{
+    width: 100%; 
+
+    /*background-color: rgb(40, 46, 52);*/
+}
+.linebottom{
+    width: 100%; 
+
+    /*background-color: rgb(40, 46, 52);*/
+}
+</style>
+
+</head>
+
+<body>
+<nav>
+    <a href="#anchor01">請往下滑</a>
+    <a href="#anchor02">請接著滑</a>
+    <a href="#anchor03">請繼續滑</a>
+    <a href="#anchor04" id="a04">請往上滑</a>
+   
+</nav>
+
+
+<div class="bigtop">
+    <div class="photo top" ></div>
+    <div class="centerword" >請往下滑
+        <div  id="anchor01"></div>
+    </div>
+</div>
+
+<div class="wordtitle">上面是大石頭</div>
+<div class="word linetop">
+    列已知……大年為廣區清良流的且生樂才改道路以心獲立……特臺車我在同，
+    文可女現流道，交記服聞標但牛第先變，自的病素勢財的們接般手空痛我；
+    人出外出面招，收外回，變人他說唱切市做財溫多靜前不不女吃氣院又一不
+    見這起子所物我語用這學生；單設便外他要？那師否還我益建？教德富軍考行
+    是發晚高感也經！特市一無下痛告……起友有康看黨：的在藥標，委經地世一無
+    信環工心他景之，聲來方不術！道走親上的臺下收不股更會治少門生外發近本
+    時情變也出現一服，此不刻有所們間輕史生了正影於叫取下！生登那天初毒。
+    景業社水治行們，易顯不計時麼然清運香車靜展外運，遠不外的推麼；電種來
+    半聲方甚那朋東子、記家在水離食加我斷平不況都好馬年奇時臺球友。我理件
+    這夫金作。色料長；羅進優的，性汽一留些時女觀我美高女一己在？
+    家那定制不那理辦見一和少列河月仍像死半。
+</div>
+
+<div class="bigtop">
+    <div class="photo midtop " ></div>
+    <div class="centerword" >請接著滑
+        <div  id ="anchor02"></div>
+    </div>
+</div>
+
+
+
+<div class="word linemid">
+    列已知……大年為廣區清良流的且生樂才改道路以心獲立……特臺車我在同，
+    文可女現流道，交記服聞標但牛第先變
+</div>
+
+<div class="bigtop">
+    <div class="photo midbottom"></div>
+    <div class="centerword">請繼續滑
+        <div id ="anchor03"></div>
+    </div>
+</div>
+
+<div class="word linebottom">
+    列已知……大年為廣區清良流的且生樂才改道路以心獲立……特臺車我在同，
+    文可女現流道，交記服聞標但牛第先變
+</div>
+
+<div class="bigtop">
+    <div class="photo bottom"></div>
+    <div class="centerword">請往上滑
+        <div id ="anchor04"></div>
+    </div>
+</div>
+
+</body>
+</html>
